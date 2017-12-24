@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aladin_bureau.kademiatn.Contact">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imaged"
+            android:layout_width="185dp"
+            android:layout_height="190dp"
+            android:src="@drawable/aladin_image" />
+
+        <TextView
+            android:layout_below="@+id/imaged"
+            android:id="@+id/textdesc"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:text="Aladi Dridi  jeune developpeur android / frontend web developpeur \naussi"
+            android:textColor="#1e51d2" />
+        <Button
+            android:id="@+id/hireme"
+            android:layout_below="@+id/textdesc"
+            android:text="! hire me"
+            android:background="#11d3ff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/donate"
+            android:layout_below="@+id/hireme"
+            android:text="!Faire un don à cette application"
+            android:background="#ffa411"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

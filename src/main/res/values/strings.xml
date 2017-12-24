@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Qr lecteur</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_acceuil">acceuilAct</string>
+    <string name="title_activity_meny_navigation">MenyNavigation</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_dashboard">Scanner</string>
+    <string name="title_notifications">À propos</string>
+    <string name="default_qrmsg">SVP concentrez la caméra sur le qrcode</string>
+    <string name="title_activity_messageverif">messageverif</string>
+</resources>

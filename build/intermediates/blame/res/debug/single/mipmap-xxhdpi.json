@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Aladin-Bureau\\AndroidStudioProjects\\qrscanner\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Aladin-Bureau\\AndroidStudioProjects\\qrscanner\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Aladin-Bureau\\AndroidStudioProjects\\qrscanner\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Aladin-Bureau\\AndroidStudioProjects\\qrscanner\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    }
+]

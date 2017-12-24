@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aladin_bureau.kademiatn.ContactActivity">
+<RelativeLayout
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="195dp"
+        android:layout_height="205dp"
+        android:src="@drawable/aladin_image"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aladin Dridi je suis un developpeur android /et aussi frontend web developpeur"
+        android:textColor="@color/wallet_holo_blue_light"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="269dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email : dridialaeddine81@gmail.com"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="324dp" />
+    <Button
+        android:id="@+id/hire"
+        android:layout_below="@+id/textView3"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:text="Hire me'Pour un projet' "
+        android:layout_height="73px" />
+    <Button
+        android:id="@+id/donation"
+        android:layout_below="@+id/hire"
+        android:layout_width="match_parent"
+        android:background="#adaa"
+        android:text="donate this app' "
+        android:layout_height="73px" />
+    <Image
+        android:id="@+id/github"
+        android:layout_below="@+id/donation"
+        android:layout_width="90dp"
+        android:src="@drawable/ocgit"
+        android:layout_height="80dp" />
+    <TextView
+        android:layout_below="@id/github"
+        android:text="Mes projets sur github"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
